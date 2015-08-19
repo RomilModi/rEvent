@@ -1,0 +1,74 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rays.rEvent.MainActivity" >
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_filter" -->
+    <!-- android:actionLayout="@layout/layout_search" -->
+    <!-- android:icon="@drawable/filter" -->
+    <!-- android:orderInCategory="0" -->
+    <!-- android:showAsAction="always|collapseActionView" -->
+    <!-- android:title="@string/action_setting"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_filter" -->
+    <!-- android:icon="@drawable/filter" -->
+    <!-- android:orderInCategory="0" -->
+    <!-- android:showAsAction="ifRoom" -->
+    <!-- android:title="@string/action_setting"/> -->
+    <!-- <item -->
+    <!-- android:id="@+id/action_user_profile" -->
+    <!-- android:icon="@drawable/user_profile" -->
+    <!-- android:orderInCategory="1" -->
+    <!-- android:showAsAction="ifRoom" -->
+    <!-- android:title="@string/action_user_profile"/> -->
+
+
+    <!-- <item -->
+    <!-- android:id="@+id/action_user_logout" -->
+    <!-- android:icon="@drawable/logout" -->
+    <!-- android:orderInCategory="2" -->
+    <!-- android:showAsAction="ifRoom" -->
+    <!-- android:title="@string/action_user_logout"/> -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_core_overflow"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/action_settings">
+        <menu>
+
+            <!-- <item -->
+            <!-- android:id="@+id/action_blog" -->
+            <!-- android:orderInCategory="100" -->
+            <!-- android:title="Settings" -->
+            <!-- app:showAsAction="never"/> -->
+            <!-- <item -->
+            <!-- android:id="@+id/action_search" -->
+            <!-- android:orderInCategory="100" -->
+            <!-- android:title="FAQ" -->
+            <!-- app:showAsAction="never"/> -->
+            <item
+                android:id="@+id/action_help"
+                android:orderInCategory="100"
+                android:title="Contact Us"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_About"
+                android:orderInCategory="100"
+                android:title="About"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_rate"
+                android:orderInCategory="100"
+                android:title="Rate App"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_share"
+                android:orderInCategory="100"
+                android:title="Share App"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

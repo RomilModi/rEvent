@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rays_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/titlebar" />
+
+    <ListView
+        android:id="@+id/ActivityBadge_lst_Badge"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title_test"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/black"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+        android:visibility="visible" />
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:orientation="vertical" -->
+    <!-- android:layout_below="@+id/title_test"> -->
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/ActivityBadge_img_Badge" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:layout_margin="@dimen/title_txt_size" -->
+    <!-- android:adjustViewBounds="true" -->
+    <!-- android:src="@drawable/ic_stub" /> -->
+
+
+    <!-- <com.rays.rEven.view.TouchyWebView -->
+    <!-- android:id="@+id/ActivityEventBadge_WebView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@+id/view" -->
+    <!-- android:textSize="@dimen/txt_mission" /> -->
+    <!-- </LinearLayout> -->
+
+</RelativeLayout>

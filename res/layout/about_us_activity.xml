@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/titlebar" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/txt_size"
+        android:paddingLeft="5dp"
+        android:text="About rEvent :"
+        android:textSize="@dimen/title_txt_size"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="rEvent presented by Rays TechServ Pvt Ltd. is a world class event management software which can optimize your productivity while managing an event. Whether you are an event management firm or an event organizer, managing an event can become a tedious job without rEvent. As it is totally customizable, you can change its look &amp; feel along with adding / removing functionalities. You can define location, starting &amp; ending date, various registration types, fees and many more. Information can be provided to the participants relating to their accommodation, type of food (veg / non veg) available to them, trainings, certifications, kits etc., provided to the participants at the event. Thus, before attending the event, the participants can have the complete information about the facilities they are going to get at the event. Moreover, they can also check the complete schedule and topics to be discussed in event."
+                    android:textSize="@dimen/txt_mission" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

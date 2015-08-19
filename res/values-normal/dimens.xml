@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_size">6sp</dimen>
+    <dimen name="tab_txt_size">7sp</dimen>
+
+</resources>

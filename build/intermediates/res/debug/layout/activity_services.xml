@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rays_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="Event Name"
+                android:textSize="@dimen/txt_mission"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:text=":"
+                android:textSize="@dimen/txt_mission" />
+
+            <TextView
+                android:id="@+id/ActivityEventServices_txt_EventName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="Event Name"
+                android:textSize="@dimen/txt_mission" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="Start Date"
+                android:textSize="@dimen/txt_mission"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:text=":"
+                android:textSize="@dimen/txt_mission" />
+
+            <TextView
+                android:id="@+id/ActivityEventServices_txt_EventTo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="Event Name"
+                android:textSize="@dimen/txt_mission" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="End Date"
+                android:textSize="@dimen/txt_mission"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:text=":"
+                android:textSize="@dimen/txt_mission" />
+
+            <TextView
+                android:id="@+id/ActivityEventServices_txt_EventFrom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:text="Event Name"
+                android:textSize="@dimen/txt_mission" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/rays_custom" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:gravity="center"
+            android:text="NAME"
+            android:textSize="@dimen/txt_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:gravity="center"
+            android:text="SERVICES TAKEN"
+            android:textSize="@dimen/txt_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:gravity="center"
+            android:text="START DATE"
+            android:textSize="@dimen/txt_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:gravity="center"
+            android:text="END DATE"
+            android:textSize="@dimen/txt_size"
+            android:textStyle="bold" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="0.23" -->
+        <!-- android:gravity="center" -->
+        <!-- android:text="START TIME" -->
+        <!-- android:textSize="@dimen/edit_padding" -->
+        <!-- android:textStyle="bold" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="0.23" -->
+        <!-- android:gravity="center" -->
+        <!-- android:text="END TIME" -->
+        <!-- android:textSize="@dimen/edit_padding" -->
+        <!-- android:textStyle="bold" /> -->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/rays_custom" />
+
+    <ListView
+        android:id="@+id/lstList_Services"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+        android:visibility="visible" />
+
+</LinearLayout><!-- From: file:/D:/Romil%20All%20WorkSpace/WorkSpace-rEMS/rEMS/res/layout/activity_services.xml -->

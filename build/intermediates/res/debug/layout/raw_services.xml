@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/rays_gray"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/rawActivityServices_txt_Name"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.31"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="NAME"
+        android:textSize="@dimen/edit_padding" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/rawActivityServices_txt_Services" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.6" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="SERVICES TAKEN" -->
+    <!-- android:textSize="@dimen/edit_padding" /> -->
+
+    <LinearLayout
+        android:id="@+id/rawActivityServices_LinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.23"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rawActivityServices_LinearLayoutDateTo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.23"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rawActivityServices_LinearLayoutDateFrom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.23"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/rawActivityServices_txt_StartTime" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.22" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="START TIME" -->
+    <!-- android:textSize="@dimen/edit_padding" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/rawActivityServices_txt_EndTime" -->
+    <!-- android:layout_width="0dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="0.22" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="END TIME" -->
+    <!-- android:textSize="@dimen/edit_padding" /> -->
+
+</LinearLayout><!-- From: file:/D:/Romil%20All%20WorkSpace/WorkSpace-rEMS/rEMS/res/layout/raw_services.xml -->

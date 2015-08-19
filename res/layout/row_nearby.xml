@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/rowNearby_txt_Name"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.85"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/rays_custom"
+            android:textSize="@dimen/title_txt_size"
+            android:textStyle="bold" />
+        <!-- <TextView -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:layout_weight="0.85" -->
+        <!-- android:ellipsize="marquee" -->
+        <!-- android:fadingEdge="horizontal" -->
+        <!-- android:gravity="center_vertical" -->
+        <!-- android:lines="1" -->
+        <!-- android:marqueeRepeatLimit="marquee_forever" -->
+        <!-- android:scrollHorizontally="true" -->
+        <!-- android:selectAllOnFocus="true" -->
+        <!-- android:singleLine="true" -->
+        <!-- android:text="Name" -->
+        <!-- android:textColor="@color/rays_custom" -->
+        <!-- android:textSize="@dimen/title_txt_size" -->
+        <!-- android:textStyle="bold" /> -->
+
+        <RelativeLayout
+            android:id="@+id/RowNearby_RelativeLayout_Rating"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:background="@drawable/layout_bg" >
+
+            <TextView
+                android:id="@+id/rowNearby_txt_Rating"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="3.8"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/txt_mission"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rowNearby_txt_Address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="@dimen/txt_mission" />
+
+</LinearLayout>

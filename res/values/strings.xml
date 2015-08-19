@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rEvent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_setting">filter</string>
+    <string name="action_user_profile">User profile</string>
+    <string name="action_user_logout">User Logout</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="election_id">Election ID</string>
+    <string name="adhar_id">Adhar ID</string>
+    <string name="remember_me">Remember Password?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="companyname"> Developed By: Rays TechServ Pvt. Ltd.</string>
+    <string name="services">Services</string>
+    <string name="badge">Badge</string>
+    <string name="vanue">Venue</string>
+    <string name="profile">Profile</string>
+    <string name="pdf">Reciept</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="support"> Support</string>
+    <string name="pdf_show_local_progress_title"></string>
+    <string name="pdf_show_local_progress_content">Loading pdf file... please wait</string>
+
+    <string-array name="places">
+        <item>Restaurant</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Cafe</item>
+        <item>Fire-Station</item>
+        <item>Hospital</item>
+        <item>Pharmacy</item>
+        <item>Police</item>
+        <item>Shopping Mall</item>
+    </string-array>
+
+    <string name="gcm_defaultSenderId">16767411547</string>
+
+</resources>

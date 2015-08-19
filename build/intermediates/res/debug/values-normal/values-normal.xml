@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Romil%20All%20WorkSpace/WorkSpace-rEMS/rEMS/res/values-normal/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tab_size">6sp</dimen>
+    <dimen name="tab_txt_size">7sp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">68dp</dimen>
+    <dimen name="activity_vertical_margin">35dp</dimen>
+    <dimen name="footer_height">80dp</dimen>
+    <dimen name="footer_width">170dp</dimen>
+    <dimen name="footer_txt_size">35dp</dimen>
+    <dimen name="txt_mission">40sp</dimen>
+    <dimen name="txt_title">50sp</dimen>
+    <dimen name="call">75dp</dimen>
+    <dimen name="beti_title">110dp</dimen>
+    <dimen name="login_header">90dp</dimen>
+    <dimen name="header_width">667dp</dimen>
+    <dimen name="header_height">373dp</dimen>
+    <dimen name="edit_padding">20dp</dimen>
+    <dimen name="txt_size">15sp</dimen>
+    <dimen name="btn_logout_width">100sp</dimen>
+    <dimen name="btn_logout_height">50sp</dimen>
+    <dimen name="tab_txt_size">11sp</dimen>
+    <dimen name="txt_size_test">17sp</dimen>
+
+</resources>
